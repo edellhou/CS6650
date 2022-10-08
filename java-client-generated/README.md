@@ -2,7 +2,7 @@
 
 Ski Data API for NEU Seattle distributed systems course
 - API version: 1.1
-  - Build date: 2022-09-21T23:20:15.551Z[GMT]
+  - Build date: 2022-10-07T04:35:55.425Z[GMT]
 
 An API for an emulation of skier managment system for RFID tagged lift tickets. Basis for CS6650 Assignments for 2019
 

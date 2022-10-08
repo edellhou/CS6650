@@ -25,7 +25,7 @@ import java.io.IOException;
  * ResortIDSeasonsBody
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2022-09-21T23:20:15.551Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2022-10-07T04:35:55.425Z[GMT]")
 public class ResortIDSeasonsBody {
   @SerializedName("year")
   private String year = null;
