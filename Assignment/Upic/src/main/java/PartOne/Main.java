@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         int MAXCAPACITY = 200000;
-        int maxThread = 42;
+        int maxThread = 168;
         int numRequest = 1000;
 
         //Creating BlockingQueue of size 10
@@ -36,7 +36,7 @@ public class Main {
 
         nextPhasesSignal.await();
         for (int i = 0; i < maxThread; i++) {
-            PostRunner consumer = new PostRunner(queue, nextPhasesSignal, requestCountDown,successCountDown, numRequest * 4, MAXCAPACITY);
+            PostRunner consumer = new PostRunner(queue, nextPhasesSignal, requestCountDown,successCountDown, numRequest, MAXCAPACITY);
             consumerPool.execute(consumer);
         }
 

@@ -26,7 +26,8 @@ public class PostRunner implements Runnable{
 
     private int numRequest;
     private final String localBasePath = "http://localhost:8080/UpicServlet_war_exploded/";
-    private final String remoteBasePath = "http://35.161.18.145:8080/UpicServlet_war/";
+    private final String remoteBasePath = "http://34.221.46.75:8080/UpicSpring-0.0.1-SNAPSHOT/";
+            //"http://34.221.46.75:8080/UpicServlet_war/";
 
     public PostRunner(LinkedBlockingQueue<Generator> q, LinkedBlockingQueue<Long> runTimeQueue,LinkedBlockingQueue<String> logQueue,CountDownLatch threadCountDown,  CountDownLatch requestCountDown,CountDownLatch successCountDown, int numRequest, int maxCapacity) {
         this.queue = q;
