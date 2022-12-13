@@ -6,6 +6,7 @@ import com.google.gson.Gson;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import redis.clients.jedis.JedisPooled;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -31,7 +32,7 @@ public class SkierServlet extends HttpServlet {
     private RMQChannelFactory rmqChannelFactory;
     private RMQChannelPool rmqChannelPool;
 
-    @Override
+   @Override
     public void init(){
             ConnectionFactory factory = new ConnectionFactory();
             factory.setHost("52.12.44.5");
@@ -51,6 +52,18 @@ public class SkierServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/plain");
+        request.getParameter("resort");
+
+        try{
+            JedisPooled jedis = new JedisPooled("54.189.195.124", 6379);
+            long numSkiers =  jedis.pfcount("resortID:dayID:6:1");
+            response.getWriter().write(String.valueOf(numSkiers));
+            System.out.println(numSkiers);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
 
     }
 

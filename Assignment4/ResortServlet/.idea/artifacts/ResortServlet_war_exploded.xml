@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ResortServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ResortServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ResortServlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ResortServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:4.3.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.11.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20220320" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

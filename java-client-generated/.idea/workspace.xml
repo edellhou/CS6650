@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3350e425-43e8-4fe5-b045-dfe051718c32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/amqp-client-5.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/slf4j-simple-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/src/main/java/org/A2/consumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/src/main/java/org/A2/consumer/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/target/classes/org/A2/consumer/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Consumer/target/classes/org/A2/consumer/Recv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Upic/src/main/java/PartTwo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Upic/src/main/java/PartTwo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/Upic/target/classes/PartTwo/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/UpicServlet/src/main/java/CS6650_Servler/LiftRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6/src/main/java/com/Lab6/RPCServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6/src/main/java/com/Lab6/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6/src/main/java/com/Lab6/Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment/Assignment1 Doc.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Assignment1 Doc.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment/Upic/src/main/java/PartTwo/PostRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/Upic/src/main/java/PartTwo/PostRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment/~$signment1 Doc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.Assignment.zip.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment/Upic/.log.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/UpicServlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/UpicServlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/UpicServlet/src/main/java/SkierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/UpicServlet/src/main/java/SkierServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,6 +154,7 @@
       <workItem from="1666115190580" duration="715000" />
       <workItem from="1666764094360" duration="261000" />
       <workItem from="1666939918990" duration="2443000" />
+      <workItem from="1670459527681" duration="276000" />
     </task>
     <servers />
   </component>
